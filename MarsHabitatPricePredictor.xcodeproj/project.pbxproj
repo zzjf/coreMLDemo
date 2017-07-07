@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1405CF381EB15517009DDFA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405CF371EB15517009DDFA4 /* AppDelegate.swift */; };
+		1405CF3A1EB15517009DDFA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405CF391EB15517009DDFA4 /* ViewController.swift */; };
+		1405CF3D1EB15517009DDFA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1405CF3B1EB15517009DDFA4 /* Main.storyboard */; };
+		1405CF3F1EB15517009DDFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1405CF3E1EB15517009DDFA4 /* Assets.xcassets */; };
+		1405CF421EB15517009DDFA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1405CF401EB15517009DDFA4 /* LaunchScreen.storyboard */; };
+		141947F31EB2A1F900D03315 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141947F21EB2A1F900D03315 /* Feature.swift */; };
+		14A8A14E1EB15BD500263F76 /* PickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8A14D1EB15BD500263F76 /* PickerViewDataSource.swift */; };
+		14A8A1501EB15BE800263F76 /* SolarPanelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8A14F1EB15BE800263F76 /* SolarPanelDataSource.swift */; };
+		14A8A1521EB15BF900263F76 /* GreenhousesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8A1511EB15BF900263F76 /* GreenhousesDataSource.swift */; };
+		14A8A1541EB15C0E00263F76 /* SizeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8A1531EB15C0E00263F76 /* SizeDataSource.swift */; };
+		14F3A3BD1EB2C5ED004FA86D /* ViewController+PickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3A3BC1EB2C5ED004FA86D /* ViewController+PickerViewDelegate.swift */; };
+		9C478FA11F0F3A7A00F0B494 /* MarsHabitatPricePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C478FA01F0F3A7A00F0B494 /* MarsHabitatPricePredictor.swift */; };
+		9CA913F91F0F85860032CBB8 /* OCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA913F81F0F85860032CBB8 /* OCTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CA914031F0F87C60032CBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA913FE1F0F87C60032CBB8 /* ZipArchive.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B423AE1A1C0DF76A0004A2F1;
+			remoteInfo = "ZipArchive-iOS";
+		};
+		9CA914051F0F87C60032CBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA913FE1F0F87C60032CBB8 /* ZipArchive.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AFF75A241C37279600F450AC;
+			remoteInfo = "ZipArchive-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		140447D11EB3C4460091B24A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1405CF341EB15517009DDFA4 /* MarsHabitatPricePredictor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsHabitatPricePredictor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1405CF371EB15517009DDFA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1405CF391EB15517009DDFA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1405CF3C1EB15517009DDFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1405CF3E1EB15517009DDFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1405CF411EB15517009DDFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1405CF431EB15517009DDFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141947F21EB2A1F900D03315 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		14A8A14D1EB15BD500263F76 /* PickerViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewDataSource.swift; sourceTree = "<group>"; };
+		14A8A14F1EB15BE800263F76 /* SolarPanelDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarPanelDataSource.swift; sourceTree = "<group>"; };
+		14A8A1511EB15BF900263F76 /* GreenhousesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenhousesDataSource.swift; sourceTree = "<group>"; };
+		14A8A1531EB15C0E00263F76 /* SizeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeDataSource.swift; sourceTree = "<group>"; };
+		14F3A3BC1EB2C5ED004FA86D /* ViewController+PickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+PickerViewDelegate.swift"; sourceTree = "<group>"; };
+		9C478FA01F0F3A7A00F0B494 /* MarsHabitatPricePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsHabitatPricePredictor.swift; sourceTree = "<group>"; };
+		9CA913F71F0F85850032CBB8 /* MarsHabitatPricePredictor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarsHabitatPricePredictor-Bridging-Header.h"; sourceTree = "<group>"; };
+		9CA913F81F0F85860032CBB8 /* OCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTest.m; sourceTree = "<group>"; };
+		9CA913FE1F0F87C60032CBB8 /* ZipArchive.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZipArchive.xcodeproj; path = Carthage/Checkouts/ZipArchive/ZipArchive.xcodeproj; sourceTree = "<group>"; };
+		AFF67E0EA9AC3A273610849C /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		CB70275B00CA6F48EE383D9C /* SampleCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1405CF311EB15517009DDFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08B6098D1EFFEBD1C89BDF88 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				CB70275B00CA6F48EE383D9C /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		1405CF2B1EB15517009DDFA4 = {
+			isa = PBXGroup;
+			children = (
+				9CA913F81F0F85860032CBB8 /* OCTest.m */,
+				140447D11EB3C4460091B24A /* README.md */,
+				9CA913FE1F0F87C60032CBB8 /* ZipArchive.xcodeproj */,
+				1405CF361EB15517009DDFA4 /* MarsHabitatPricePredictor */,
+				1405CF351EB15517009DDFA4 /* Products */,
+				08B6098D1EFFEBD1C89BDF88 /* Configuration */,
+				9B1A2ABDB91B369920D76A15 /* LICENSE */,
+				9CA913F71F0F85850032CBB8 /* MarsHabitatPricePredictor-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		1405CF351EB15517009DDFA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1405CF341EB15517009DDFA4 /* MarsHabitatPricePredictor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1405CF361EB15517009DDFA4 /* MarsHabitatPricePredictor */ = {
+			isa = PBXGroup;
+			children = (
+				1405CF371EB15517009DDFA4 /* AppDelegate.swift */,
+				141947F21EB2A1F900D03315 /* Feature.swift */,
+				1405CF391EB15517009DDFA4 /* ViewController.swift */,
+				14F3A3BC1EB2C5ED004FA86D /* ViewController+PickerViewDelegate.swift */,
+				14A8A1551EB15C1C00263F76 /* Data Sources */,
+				1405CF491EB15546009DDFA4 /* Resources */,
+				9C478FA01F0F3A7A00F0B494 /* MarsHabitatPricePredictor.swift */,
+			);
+			path = MarsHabitatPricePredictor;
+			sourceTree = "<group>";
+		};
+		1405CF491EB15546009DDFA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1405CF3B1EB15517009DDFA4 /* Main.storyboard */,
+				1405CF3E1EB15517009DDFA4 /* Assets.xcassets */,
+				1405CF401EB15517009DDFA4 /* LaunchScreen.storyboard */,
+				1405CF431EB15517009DDFA4 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		14A8A1551EB15C1C00263F76 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				14A8A14D1EB15BD500263F76 /* PickerViewDataSource.swift */,
+				14A8A14F1EB15BE800263F76 /* SolarPanelDataSource.swift */,
+				14A8A1511EB15BF900263F76 /* GreenhousesDataSource.swift */,
+				14A8A1531EB15C0E00263F76 /* SizeDataSource.swift */,
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
+		9B1A2ABDB91B369920D76A15 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				AFF67E0EA9AC3A273610849C /* LICENSE.txt */,
+			);
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		9CA913FF1F0F87C60032CBB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA914041F0F87C60032CBB8 /* ZipArchive.framework */,
+				9CA914061F0F87C60032CBB8 /* ZipArchive.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1405CF331EB15517009DDFA4 /* MarsHabitatPricePredictor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1405CF461EB15517009DDFA4 /* Build configuration list for PBXNativeTarget "MarsHabitatPricePredictor" */;
+			buildPhases = (
+				1405CF301EB15517009DDFA4 /* Sources */,
+				1405CF311EB15517009DDFA4 /* Frameworks */,
+				1405CF321EB15517009DDFA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsHabitatPricePredictor;
+			productName = HousePricePredictor;
+			productReference = 1405CF341EB15517009DDFA4 /* MarsHabitatPricePredictor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1405CF2C1EB15517009DDFA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					1405CF331EB15517009DDFA4 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1405CF2F1EB15517009DDFA4 /* Build configuration list for PBXProject "MarsHabitatPricePredictor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1405CF2B1EB15517009DDFA4;
+			productRefGroup = 1405CF351EB15517009DDFA4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9CA913FF1F0F87C60032CBB8 /* Products */;
+					ProjectRef = 9CA913FE1F0F87C60032CBB8 /* ZipArchive.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1405CF331EB15517009DDFA4 /* MarsHabitatPricePredictor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9CA914041F0F87C60032CBB8 /* ZipArchive.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZipArchive.framework;
+			remoteRef = 9CA914031F0F87C60032CBB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9CA914061F0F87C60032CBB8 /* ZipArchive.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZipArchive.framework;
+			remoteRef = 9CA914051F0F87C60032CBB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1405CF321EB15517009DDFA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1405CF421EB15517009DDFA4 /* LaunchScreen.storyboard in Resources */,
+				1405CF3F1EB15517009DDFA4 /* Assets.xcassets in Resources */,
+				1405CF3D1EB15517009DDFA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1405CF301EB15517009DDFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1405CF3A1EB15517009DDFA4 /* ViewController.swift in Sources */,
+				14F3A3BD1EB2C5ED004FA86D /* ViewController+PickerViewDelegate.swift in Sources */,
+				14A8A1541EB15C0E00263F76 /* SizeDataSource.swift in Sources */,
+				14A8A1521EB15BF900263F76 /* GreenhousesDataSource.swift in Sources */,
+				141947F31EB2A1F900D03315 /* Feature.swift in Sources */,
+				9C478FA11F0F3A7A00F0B494 /* MarsHabitatPricePredictor.swift in Sources */,
+				14A8A1501EB15BE800263F76 /* SolarPanelDataSource.swift in Sources */,
+				14A8A14E1EB15BD500263F76 /* PickerViewDataSource.swift in Sources */,
+				1405CF381EB15517009DDFA4 /* AppDelegate.swift in Sources */,
+				9CA913F91F0F85860032CBB8 /* OCTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1405CF3B1EB15517009DDFA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1405CF3C1EB15517009DDFA4 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1405CF401EB15517009DDFA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1405CF411EB15517009DDFA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1405CF441EB15517009DDFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB70275B00CA6F48EE383D9C /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1405CF451EB15517009DDFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB70275B00CA6F48EE383D9C /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1405CF471EB15517009DDFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB70275B00CA6F48EE383D9C /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				DEVELOPMENT_TEAM = 4S56J2M6HA;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Carthage/Checkouts/Zip/Zip/**",
+					"${SRCROOT}/Carthage/Checkouts/ZipArchive/SSZipArchive/**",
+				);
+				INFOPLIST_FILE = MarsHabitatPricePredictor/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MarsHabitatPricePredictor${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarsHabitatPricePredictor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1405CF481EB15517009DDFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB70275B00CA6F48EE383D9C /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				DEVELOPMENT_TEAM = 4S56J2M6HA;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Carthage/Checkouts/Zip/Zip/**",
+					"${SRCROOT}/Carthage/Checkouts/ZipArchive/SSZipArchive/**",
+				);
+				INFOPLIST_FILE = MarsHabitatPricePredictor/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MarsHabitatPricePredictor${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarsHabitatPricePredictor-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1405CF2F1EB15517009DDFA4 /* Build configuration list for PBXProject "MarsHabitatPricePredictor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1405CF441EB15517009DDFA4 /* Debug */,
+				1405CF451EB15517009DDFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1405CF461EB15517009DDFA4 /* Build configuration list for PBXNativeTarget "MarsHabitatPricePredictor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1405CF471EB15517009DDFA4 /* Debug */,
+				1405CF481EB15517009DDFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1405CF2C1EB15517009DDFA4 /* Project object */;
+}
